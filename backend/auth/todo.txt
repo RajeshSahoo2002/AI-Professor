@@ -1,0 +1,9 @@
+1. First we need to built the user schema
+
+2. Need to hash the password while logging in by the user/professort based on the roles
+
+3. built api routes for student & teacher signup(POST call)
+
+4. create an authentication function to check if the user is signed up or not
+
+5. built the login api routes based on role preference

@@ -1,6 +1,11 @@
 {
     "cSpell.words": [
+        "bycrypt",
+        "checkpw",
         "fastapi",
+        "gensalt",
+        "hashpw",
+        "rajeshsahoo",
         "streamlit"
     ]
 }
