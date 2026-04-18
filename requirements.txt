@@ -33,3 +33,6 @@ bcrypt
 # For UI rendering and testing
 streamlit
 requests
+
+#For cache management
+redis
