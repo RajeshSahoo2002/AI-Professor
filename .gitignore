@@ -1,0 +1,29 @@
+# Environment files
+.env
+backend/.env
+.env.local
+.env.* 
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenvs
+.venv/
+venv/
+env/
+ENV/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Test / build
+.pytest_cache/
+pip-wheel-metadata/
+*.egg-info/
+
+# Node
+node_modules/
