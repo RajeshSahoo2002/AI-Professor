@@ -19,6 +19,7 @@ def student_signup(req:studentUser):
     
     #hash the passwords before getting the password stored in database
     hashed_password=hash_password(req.password)
+    # Below code is used to insert the user details in the database and the password will be stored in the hashed format and based on that it leaves a message and status code
     users_collection.insert_one({
         "id":req.id,
         "fullname":req.fullname,
